@@ -3,9 +3,7 @@ combine <- function(){
   ## Written by Sanjay Patel
   ## Part of course assignment
   ## Combines the training and test data sets
-  
-  setwd("D:/Sanjay/Documents/R Stuff/CleaningData/UCI HAR dataset")
-  
+    
   ## Combine the X attribute data
   dat <- read.table("./test/X_test.txt", stringsAsFactors=FALSE)
   dat2 <- read.table("./train/X_train.txt", stringsAsFactors=FALSE)
